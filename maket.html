@@ -6,7 +6,43 @@
     <title>Document</title>
 </head>
 <body>
-    index
+
+    <form class="container">
+        <h1 class="h1">форма обратной связи</h1>
+        <div class="form-row">
+           <label for="text">название организации/ ваше имя:</label>
+            <input id="text" type="text" name="name">
+        </div>
+        <button> pay
+
+        </button>
+        <div class="form-row">
+           <label for="tel">ваш телефон:</label>
+          <input id="tel" type="tel" name="phone"> 
+        </div>   
+        <div class="form-row">
+            <label for="email">ваш e-mail</label>
+            <input id="email" type="email"name="email">
+        </div>
+      <span class="color">выберите тему для письма и напишите сообщение</span>
+        <hr>
+        <div class="form-row">
+           <p>тема письма:<select><option>-выбрать тему-</option></select></p>
+       </div>
+        <div class="form-row">
+            <p>сообщение:<textarea></textarea></p>
+        </div>
+    <span class="color">решите пример и нажмите "отправить"</span>
+    <hr>
+    <div class="form-row">
+    <label for="number">3+7=</label>
+    <input id="number" type="text" name="number">  
+    </div>
+    <div class="form-row">
+    <input type="submit" value="Отправить" name="submit">
+    <input type="reset" value="Очистить" name="reset">
+    </div>
+    </form>
     
 </body>
 </html>
