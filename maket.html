@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Form</title>
+    <title>Document</title>
 </head>
 <body>
+
     <form class="container">
         <h1 class="h1">форма обратной связи</h1>
         <div class="form-row">
            <label for="text">название организации/ ваше имя:</label>
             <input id="text" type="text" name="name">
         </div>
+        <button> pay
+
+        </button>
         <div class="form-row">
            <label for="tel">ваш телефон:</label>
           <input id="tel" type="tel" name="phone"> 
@@ -41,59 +44,5 @@
     </div>
     </form>
     
-    <style>
-    
-    .container {
-        width: 380px;
-        font-family: 'Arial', sans-serif;
-        font-size: 73%;
-        font-variant: small-caps;
-        text-align: left;
-        display: inline-block;
-        background-color: rgb(221, 221, 221);
-        padding: 11px;
-        margin: 49px;
-        line-height: 30px;
-    }
-    .form-row textarea{
-        float: right;
-        height: 75px;
-        width: 175px;
-        resize: none;
-    }
-    .form-row select{
-        float: right;
-        width: 170px;
-        align-items: left;
-    }
-    .color {
-        color: gray;
-    }
-    .h1 {
-        margin-top: -5px;
-        margin-bottom: auto;
-    }
-    .form-row input {
-        float: right;
-	    height: 25px;
-	    line-height: 19px;
-	    margin: 5px;
-	    padding: 0px ;
-	    width: 175px;
-	    border: 1px solid #ABADB3;
-        box-shadow: 1px 1px gray;
-    }
-    .form-row {
-        overflow: hidden;
-    }
-    .form-row input[type=submit] {
-	    width: 80px;
-        font-size:90%;
-    }
-    .form-row input[type=reset] {
-        width: 80px;
-        font-size:90%;
-    }
-    </style>   
 </body>
 </html>
